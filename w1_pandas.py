@@ -20,3 +20,9 @@ df = diabetes['data']
 # city_info_df = pd.DataFrame({'Cities': cities, "Population": population})
 
 # Exploring the diabetes df
+print(df.shape)
+# print(df.columns)
+# print(df.info())
+print(df.describe())
+# print(df.head())
+# print(df.tail())
