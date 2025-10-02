@@ -26,3 +26,9 @@ print(df.shape)
 print(df.describe())
 # print(df.head())
 # print(df.tail())
+
+# Selection
+# print(df['age'])
+# print(df[['age', 'sex']])
+# print(df.iloc[0]) print rows
+
